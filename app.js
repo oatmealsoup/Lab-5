@@ -1,7 +1,8 @@
 // app.js
-import multiply, { add, subtract, addAndLogUpper } from './mathModule.js';
+import multiply, { add, subtract, } from './mathModule.js';
 import { toUpperCase, toLowerCase } from './stringModule.js';
 import { findMax, reverseArray } from './arrayModule.js';
+import { addAndLogUpper } from './mathModule.js';
  
 // Call the functions and log results (your choice of arguments)
 console.log('Add: ', add(5, 3));  // Test your add function
