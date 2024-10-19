@@ -7,4 +7,5 @@ import { toUpperCase } from './stringModule.js';
 export function addAndLogUpper(a, b) {
     const result = add(a, b);
     console.log(toUpperCase(result.toString()));
+    console.log("What the heck is an uppercase number?")
 }
