@@ -12,7 +12,8 @@ console.log('Max: ', findMax([1, 2, 3, 4, 5]));  // Test findMax
 console.log('Reversed: ', reverseArray([1, 2, 3]));  // Test reverseArray
 addAndLogUpper(10, 20);  // Test the new function
 console.log([1,2,3,4,5,6,7,8,9,0]);
-console.log(findmax([1,2,3,4,5,6,7,8,9,0]));
+let max = findmax([1,2,3,4,5,6,7,8,9,0]);
+console.log(max);
 console.log('ten max:', multiply(max, 10));
 addAndLogUpper(0, multiply(max, 10));
 
