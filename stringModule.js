@@ -1,7 +1,7 @@
 // stringModule.js
 export function toUpperCase(str) {
-let uppercaseString = string.toUpperCase();
+return str.toUpperCase()
 }
 export function toLowerCase(str) {
-let uppercaseString = string.toLowerCase();
+return str.toLowerCase()
 }
