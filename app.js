@@ -11,3 +11,9 @@ console.log('Uppercase: ', toUpperCase('hello'));  // Test string manipulation
 console.log('Max: ', findMax([1, 2, 3, 4, 5]));  // Test findMax
 console.log('Reversed: ', reverseArray([1, 2, 3]));  // Test reverseArray
 addAndLogUpper(10, 20);  // Test the new function
+console.log([1,2,3,4,5,6,7,8,9,0]);
+max=findmax([1,2,3,4,5,6,7,8,9,0]);
+console.log(max);
+console.log('ten max:', multiply(max, 10));
+console.log('Uppercase number:' toUpperCase(multiply(max, 10)));
+
