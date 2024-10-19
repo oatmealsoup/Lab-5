@@ -15,6 +15,6 @@ console.log([1,2,3,4,5,6,7,8,9,0]);
 max=findmax([1,2,3,4,5,6,7,8,9,0]);
 console.log(max);
 console.log('ten max:', multiply(max, 10));
-let n = multiply(max, 10)
+let n = multiply(max, 10);
 addAndLogUpper(0, n);
 
